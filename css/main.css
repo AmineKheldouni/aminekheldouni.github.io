@@ -1293,7 +1293,7 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 #intro {
-	background: #151515 url(../images/wallpaper_portfolio.jpg) no-repeat center bottom;
+	background: #FFFFFF url(../images/wallpaper_portfolio.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1304,7 +1304,7 @@ header .logo a {
 	display: table;
 	position: relative;
 	text-align: center;
-	opacity: 0.33;
+	opacity: 0.5;
 }
 .intro-overlay {
 	position: absolute;
