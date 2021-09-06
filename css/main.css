@@ -1025,6 +1025,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .grey-section p.lead {
 	color: #7d7d7d;
 }
+.blue-section {
+	background: #002366;
+}
+.blue-section p.lead h3 p {
+	color: #FFFFFF;
+}
 .section-intro {
 	max-width: 900px;
 	margin-left: auto;
@@ -1294,7 +1300,6 @@ header .logo a {
  */
 #intro {
 	background: url(../images/wallpaper_portfolio.jpg) no-repeat center bottom;
-	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-attachment: fixed;
@@ -1304,6 +1309,7 @@ header .logo a {
 	display: table;
 	position: relative;
 	text-align: center;
+	opacity: 0.8;
 }
 .intro-overlay {
 	position: absolute;
@@ -1311,8 +1317,7 @@ header .logo a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #111111;
-	opacity: .85;
+	opacity: .7;
 }
 
 .intro-content {
@@ -1338,7 +1343,7 @@ header .logo a {
 .intro-content h5 {
 	color: #002366;
 	font-family: "poppins-bold", sans-serif;
-	font-size: 2.3rem;
+	font-size: 3.4rem;
 	line-height: 1.565;
 	margin-bottom: 0;
 	text-transform: uppercase;
@@ -1351,7 +1356,7 @@ header .logo a {
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
-	color: #FFFFFF;
+	color: #002366;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position span {
@@ -1372,13 +1377,13 @@ header .logo a {
 	color: rgba(255, 255, 255, 0.3);
 }
 .intro-content .button {
-	color: #FFFFFF !important;
+	color: #002366 !important;
 	border-color: rgba(255, 255, 255, 0.3);
 	height: 6rem !important;
 	line-height: 5.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
 	margin-top: .6rem;
-	font-size: 1.3rem;
+	font-size: 2.3rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
@@ -1445,7 +1450,7 @@ header .logo a {
 		font-size: 1.8rem;
 	}
 	.intro-content .intro-position {
-		font-size: 1.3rem;
+		font-size: 2.6rem;
 	}
 	.intro-social {
 		font-size: 2.5rem;
@@ -1503,8 +1508,8 @@ header .logo a {
 	margin-left: -30px
 }
 .intro-info img {
-	height: 20rem;
-	width: 20rem;
+	height: 240px;
+	width: 200px;
 	border-radius: 100%;
 	margin: 0rem 5 0 50;
 	float: left;
@@ -1979,7 +1984,7 @@ header .logo a {
  * -------------------------------------------------------------------
  */
 #services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+	background: url(../images/wallpaper_portfolio.jpg) no-repeat center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
